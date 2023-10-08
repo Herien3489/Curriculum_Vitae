@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+/*Estilos de los links que hay en el HTML*/
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+/*Funcion que agrupa los elementos a los costados*/
+.dual{
+    display: flex;
+}
+
+/*Parte negra que da estilo a la parte izquierda delgada de color negro*/
+.izquierda {
+    margin-left: 10%;
+    color: white;
+    height: 10000;
+    width: 25%;
+    text-align: center;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+}
+
+/*Ajuste de la escala de la foto*/
+#foto {
+    margin-top: 20px;
+    width: 30%;
+    height: 40%px;
+}
+/*Estilos de informacion de contactos*/
+.pt1 {
+    margin-top: 40%;
+    list-style: none;
+}
+/*Decoracion de el link de la lista anterior*/
+.pt1 a {
+    color: white;
+    margin-left: -45%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Estilos de la lista que tienen los datos*/
+.info {
+    margin-left: 70px;
+}
+
+/*Estilo de la letra que esta escrita el la parte negra*/
+#contacto {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+/*Inicio del a parte blanca de la derecha*/
+.derecha {
+    width: 45%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Nombre que aparece en resaltado de color naranja
+flotante*/
+.nombre {
+    background-color: rgb(255, 213, 0);
+    padding: 50px;
+    margin-top: 10%;
+    margin-left: -5%;
+    border-radius: 5px;
+}
+/*Segundo cuadro que contiene el perfil del usuario*/
+.perfil {
+    text-align: left;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.text{
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*Estilos de las lineas amarillas*/
+.line {
+    border-top: 5px solid yellow;
+    margin-left: 40px;
+}
+
+.experiencia {
+    background-color: aquamarine;
+    text-align: center;
+}
